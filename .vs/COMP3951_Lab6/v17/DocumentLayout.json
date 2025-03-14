@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\",
+  "WorkspaceRootPath": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|d:\\bcit\\cst\\sem3\\comp3951\\labs\\comp3951_lab6\\comp3951_controls\\willbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6FD0F8C7-592F-4889-96EF-A2DB13CF3B97}|COMP3951_Lab6\\COMP3951_Lab6.csproj|g:\\bcit\\cst\\sem3\\comp3951\\labs\\comp3951_lab6_wo\\comp3951_lab6\\testingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{6FD0F8C7-592F-4889-96EF-A2DB13CF3B97}|COMP3951_Lab6\\COMP3951_Lab6.csproj|solutionrelative:comp3951_lab6\\testingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|g:\\bcit\\cst\\sem3\\comp3951\\labs\\comp3951_lab6_wo\\comp3951_controls\\willbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|solutionrelative:comp3951_controls\\willbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|d:\\bcit\\cst\\sem3\\comp3951\\labs\\comp3951_lab6\\comp3951_controls\\willbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|solutionrelative:comp3951_controls\\willbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{6FD0F8C7-592F-4889-96EF-A2DB13CF3B97}|COMP3951_Lab6\\COMP3951_Lab6.csproj|g:\\bcit\\cst\\sem3\\comp3951\\labs\\comp3951_lab6_wo\\comp3951_lab6\\testingapplication.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FD0F8C7-592F-4889-96EF-A2DB13CF3B97}|COMP3951_Lab6\\COMP3951_Lab6.csproj|solutionrelative:comp3951_lab6\\testingapplication.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|d:\\bcit\\cst\\sem3\\comp3951\\labs\\comp3951_lab6\\comp3951_controls\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\comp3951_controls\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{6F9D5426-2497-4992-B014-F7AD552AFA00}|COMP3951_Controls\\COMP3951_Controls.csproj|solutionrelative:comp3951_controls\\usercontrol1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6FD0F8C7-592F-4889-96EF-A2DB13CF3B97}|COMP3951_Lab6\\COMP3951_Lab6.csproj|d:\\bcit\\cst\\sem3\\comp3951\\labs\\comp3951_lab6\\comp3951_lab6\\testingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{6FD0F8C7-592F-4889-96EF-A2DB13CF3B97}|COMP3951_Lab6\\COMP3951_Lab6.csproj|solutionrelative:comp3951_lab6\\testingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,28 +26,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TestingApplication.cs [Design]",
-              "DocumentMoniker": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Lab6\\TestingApplication.cs",
+              "DocumentMoniker": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Lab6\\TestingApplication.cs",
               "RelativeDocumentMoniker": "COMP3951_Lab6\\TestingApplication.cs",
-              "ToolTip": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Lab6\\TestingApplication.cs [Design]",
+              "ToolTip": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Lab6\\TestingApplication.cs [Design]",
               "RelativeToolTip": "COMP3951_Lab6\\TestingApplication.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T19:45:07.7Z",
+              "WhenOpened": "2025-03-14T05:19:10.938Z",
               "IsPinned": true,
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UserControl1.cs [Design]",
-              "DocumentMoniker": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\UserControl1.cs",
+              "DocumentMoniker": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Controls\\UserControl1.cs",
               "RelativeDocumentMoniker": "COMP3951_Controls\\UserControl1.cs",
-              "ToolTip": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\UserControl1.cs [Design]",
+              "ToolTip": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Controls\\UserControl1.cs [Design]",
               "RelativeToolTip": "COMP3951_Controls\\UserControl1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T19:47:42.302Z",
@@ -56,28 +56,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "WillButton.cs [Design]",
-              "DocumentMoniker": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\WillButton.cs",
-              "RelativeDocumentMoniker": "COMP3951_Controls\\WillButton.cs",
-              "ToolTip": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\WillButton.cs [Design]",
-              "RelativeToolTip": "COMP3951_Controls\\WillButton.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "TestingApplication.Designer.cs",
+              "DocumentMoniker": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Lab6\\TestingApplication.Designer.cs",
+              "RelativeDocumentMoniker": "COMP3951_Lab6\\TestingApplication.Designer.cs",
+              "ToolTip": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Lab6\\TestingApplication.Designer.cs",
+              "RelativeToolTip": "COMP3951_Lab6\\TestingApplication.Designer.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDYAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T19:50:06.39Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-14T05:39:05.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WillButton.cs",
-              "DocumentMoniker": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\WillButton.cs",
+              "DocumentMoniker": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Controls\\WillButton.cs",
               "RelativeDocumentMoniker": "COMP3951_Controls\\WillButton.cs",
-              "ToolTip": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\WillButton.cs",
+              "ToolTip": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Controls\\WillButton.cs",
               "RelativeToolTip": "COMP3951_Controls\\WillButton.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAcwG8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-13T19:50:36.346Z",
+              "WhenOpened": "2025-03-14T04:51:43.282Z",
               "EditorCaption": ""
             }
           ]

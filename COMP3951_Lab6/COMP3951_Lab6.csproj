@@ -8,4 +8,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\COMP3951_Controls\COMP3951_Controls.csproj" />
+  </ItemGroup>
+
 </Project>

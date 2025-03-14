@@ -5,7 +5,7 @@
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="WillButton.cs">
-      <SubType>Component</SubType>
+      <SubType>Will Control</SubType>
     </Compile>
   </ItemGroup>
 </Project>
