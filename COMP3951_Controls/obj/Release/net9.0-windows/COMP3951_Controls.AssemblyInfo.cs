@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("COMP3951_Controls")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8f3a62123860316139077b46ad0b36528b6d01f8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+64659daacec64d103115a11e5b62cc400207ad44")]
 [assembly: System.Reflection.AssemblyProductAttribute("COMP3951_Controls")]
 [assembly: System.Reflection.AssemblyTitleAttribute("COMP3951_Controls")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

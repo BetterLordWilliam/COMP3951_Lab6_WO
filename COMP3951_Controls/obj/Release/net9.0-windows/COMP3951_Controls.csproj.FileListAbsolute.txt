@@ -13,3 +13,4 @@ G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Release\ne
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Release\net9.0-windows\refint\COMP3951_Controls.dll
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Release\net9.0-windows\COMP3951_Controls.pdb
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Release\net9.0-windows\ref\COMP3951_Controls.dll
+G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Release\net9.0-windows\COMP3951_Controls.BestFileResourceViewControl.resources
