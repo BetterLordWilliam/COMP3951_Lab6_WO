@@ -1,7 +1,6 @@
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\bin\Debug\net9.0-windows\COMP3951_Controls.deps.json
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\bin\Debug\net9.0-windows\COMP3951_Controls.dll
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\bin\Debug\net9.0-windows\COMP3951_Controls.pdb
-G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.UserControl1.resources
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.WillButton.resources
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.csproj.GenerateResource.cache
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.GeneratedMSBuildEditorConfig.editorconfig
@@ -13,3 +12,4 @@ G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\refint\COMP3951_Controls.dll
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.pdb
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\ref\COMP3951_Controls.dll
+G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.ColorSelectorControl.resources
