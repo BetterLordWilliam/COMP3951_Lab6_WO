@@ -8,23 +8,23 @@
     "net9.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\WillOtterbein\\.nuget\\packages\\": {},
+    "C:\\Users\\otter\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Controls\\COMP3951_Controls.csproj",
+      "projectUniqueName": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\COMP3951_Controls.csproj",
       "projectName": "COMP3951_Controls",
-      "projectPath": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Controls\\COMP3951_Controls.csproj",
-      "packagesPath": "C:\\Users\\WillOtterbein\\.nuget\\packages\\",
-      "outputPath": "G:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6_WO\\COMP3951_Controls\\obj\\",
+      "projectPath": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\COMP3951_Controls.csproj",
+      "packagesPath": "C:\\Users\\otter\\.nuget\\packages\\",
+      "outputPath": "D:\\BCIT\\CST\\Sem3\\COMP3951\\labs\\COMP3951_Lab6\\COMP3951_Controls\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\WillOtterbein\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\otter\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -50,9 +50,9 @@
       "restoreAuditProperties": {
         "enableAudit": "true",
         "auditLevel": "low",
-        "auditMode": "direct"
+        "auditMode": "all"
       },
-      "SdkAnalysisLevel": "9.0.200"
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net9.0-windows7.0": {
@@ -76,7 +76,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

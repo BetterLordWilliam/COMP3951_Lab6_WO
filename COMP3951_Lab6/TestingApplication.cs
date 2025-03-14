@@ -2,12 +2,33 @@ using COMP3951_Controls;
 
 namespace COMP3951_Lab6
 {
+    /// <summary>
+    /// Define the saved statuses.
+    /// </summary>
+    enum SavedStatus
+    {
+        UNSAVED = 1,
+        SAVED = 2
+    }
+
+    /// <summary>
+    /// Testing application form.
+    /// </summary>
     public partial class TestingApplication : Form
     {
         public TestingApplication()
         {
             InitializeComponent();
         }
+
+        /// <summary>
+        /// For the UI.
+        /// </summary>
+        internal static Dictionary<SavedStatus, string> savedStatusStrings = new ()
+        {
+            { SavedStatus.SAVED, "Saved" },
+            { SavedStatus.UNSAVED, "Unsaved" }
+        };
 
         /// <summary>
         /// Testing event handler for the Will Button.
@@ -29,6 +50,28 @@ namespace COMP3951_Lab6
             RedValueCapture.Text = e.RedValue.ToString();
             GreenValueCapture.Text = e.GreenValue.ToString();
             BlueValueCapture.Text = e.BlueValue.ToString();
+        }
+
+        /// <summary>
+        /// Event handler for the ontextchanged event raised by the markdown editor control.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void willBestNoteSampleControl1_OnTextChanged(object sender, EventArgs e)
+        {
+            // Update the status to be unsaved by default
+            // For the testing label
+            if (savedStatus.Text !=  savedStatusStrings[SavedStatus.UNSAVED])
+                savedStatus.Text = savedStatusStrings[SavedStatus.UNSAVED];
+        }
+
+        private void willBestNoteSampleControl1_OnTextSaved(object sender, EventArgs e)
+        {
+            // Update the saved status of the control to be saved
+            // For the testing label
+            savedStatus.Text = savedStatusStrings[SavedStatus.SAVED];
+            if (savedStatus.Text != savedStatusStrings[SavedStatus.SAVED])
+                savedStatus.Text = savedStatusStrings[SavedStatus.SAVED];
         }
     }
 }

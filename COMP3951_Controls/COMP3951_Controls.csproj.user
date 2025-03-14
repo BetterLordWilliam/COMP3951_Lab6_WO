@@ -4,6 +4,9 @@
     <Compile Update="BestFileResourceViewControl.cs">
       <SubType>Component</SubType>
     </Compile>
+    <Compile Update="WillBestNoteSampleControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="WillButton.cs">
       <SubType>Will Control</SubType>
     </Compile>
