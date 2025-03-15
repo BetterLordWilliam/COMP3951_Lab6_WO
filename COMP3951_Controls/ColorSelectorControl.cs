@@ -7,16 +7,6 @@ using System.Runtime.Serialization;
 namespace COMP3951_Controls
 {
     /// <summary>
-    /// Event args class, use this instead of casting.
-    /// </summary>
-    public class ColorChangedEventArgs : EventArgs
-    {
-        public int RedValue { get; set; }
-        public int GreenValue { get; set; }
-        public int BlueValue { get; set; }
-    }
-
-    /// <summary>
     /// Color selector control definition.
     /// </summary>
     public partial class ColorSelectorControl : UserControl
@@ -90,5 +80,15 @@ namespace COMP3951_Controls
                 MessageBox.Show("Error setting the color.");
             }
         }
+    }
+
+    /// <summary>
+    /// Event args class, use this instead of casting.
+    /// </summary>
+    public class ColorChangedEventArgs : EventArgs
+    {
+        public int RedValue { get; set; }
+        public int GreenValue { get; set; }
+        public int BlueValue { get; set; }
     }
 }

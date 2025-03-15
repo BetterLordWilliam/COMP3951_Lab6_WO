@@ -12,7 +12,6 @@ G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\refint\COMP3951_Controls.dll
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.pdb
 G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\ref\COMP3951_Controls.dll
-G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.ColorChangedEventArgs.resources
 D:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6\COMP3951_Controls\bin\Debug\net9.0-windows\COMP3951_Controls.deps.json
 D:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6\COMP3951_Controls\bin\Debug\net9.0-windows\COMP3951_Controls.dll
 D:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6\COMP3951_Controls\bin\Debug\net9.0-windows\COMP3951_Controls.pdb
@@ -30,3 +29,6 @@ D:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6\COMP3951_Controls\obj\Debug\net9.0-
 D:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6\COMP3951_Controls\obj\Debug\net9.0-windows\refint\COMP3951_Controls.dll
 D:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.pdb
 D:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6\COMP3951_Controls\obj\Debug\net9.0-windows\ref\COMP3951_Controls.dll
+G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.BestFileResourceViewControl.resources
+G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.WillBestNoteSampleControl.resources
+G:\BCIT\CST\Sem3\COMP3951\labs\COMP3951_Lab6_WO\COMP3951_Controls\obj\Debug\net9.0-windows\COMP3951_Controls.ColorSelectorControl.resources

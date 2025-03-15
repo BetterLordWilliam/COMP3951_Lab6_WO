@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -24,6 +25,7 @@ namespace COMP3951_Controls
         /// Change the font of the markdown editor.
         /// </summary>
         [Category("Will Custom Properties")]
+        [Description("Set the fond of the markdown editor")]
         public Font MarkdownEditorFont
         {
             get => MarkDownEditorBox.Font;
@@ -34,6 +36,7 @@ namespace COMP3951_Controls
         /// Change the background color of the markdown editor.
         /// </summary>
         [Category("Will Custom Properties")]
+        [Description("Set the background of the markdown editor")]
         public Color MarkdownEditorBackColor
         {
             get => MarkDownEditorBox.BackColor;
@@ -55,6 +58,13 @@ namespace COMP3951_Controls
         public delegate void WillOnTextSaved(object sender, EventArgs e);
 
         /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public delegate void WillOnFontChanged(object sender, FontSwitchedEventArgs e);
+
+        /// <summary>
         /// Text changed custom event.
         /// </summary>
         [Category("Will Events")]
@@ -69,6 +79,13 @@ namespace COMP3951_Controls
         public event WillOnTextChanged? WillTextSaved;
 
         /// <summary>
+        /// Font changed custom event.
+        /// </summary>
+        [Category("Will Events")]
+        [Description("Event handler to handle the font changed event")]
+        public event WillOnFontChanged? WillFontChanged;
+
+        /// <summary>
         /// Will text changed custom event.
         /// </summary>
         /// <param name="e"></param>
@@ -78,7 +95,7 @@ namespace COMP3951_Controls
         }
 
         /// <summary>
-        /// Will text saved custom event/
+        /// Will text saved custom event.
         /// </summary>
         /// <param name="e"></param>
         public virtual void WillOnTextSavedHandler(EventArgs e)
@@ -88,7 +105,16 @@ namespace COMP3951_Controls
         }
 
         /// <summary>
-        /// Override the defautl on text changed event.
+        /// Will font changed event.
+        /// </summary>
+        /// <param name="e"></param>
+        public virtual void WillOnFontChangedHandler(FontSwitchedEventArgs e)
+        {
+            WillFontChanged?.Invoke(this, e);
+        }
+
+        /// <summary>
+        /// Override -- hide -- the default on text changed event.
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
@@ -107,5 +133,40 @@ namespace COMP3951_Controls
         {
             WillOnTextSavedHandler(e);
         }
+
+        /// <summary>
+        /// Event handler for the font switched button being clicked.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void OnSwitchFontClicked(object sender, EventArgs e)
+        {
+            if (markdownFont.ShowDialog() == DialogResult.OK)
+            {
+                // Set the new font
+                MarkDownEditorBox.Font = markdownFont.Font;
+                // Invoke the event
+                WillOnFontChangedHandler(new FontSwitchedEventArgs()
+                {
+                    NewFont = markdownFont.Font
+                });
+            }
+        }
+    }
+
+    /// <summary>
+    /// Event args for Font switched event args.
+    /// </summary>
+    public class FontSwitchedEventArgs : EventArgs
+    {
+        public Font? NewFont { get; set; }
+    }
+
+    /// <summary>
+    /// Event args for BackgroundColor switched event args.
+    /// </summary>
+    public class BackgroundColorSwitchedEventArgs : EventArgs
+    {
+
     }
 }

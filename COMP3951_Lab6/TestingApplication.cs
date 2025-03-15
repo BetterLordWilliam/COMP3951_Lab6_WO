@@ -1,5 +1,7 @@
 using COMP3951_Controls;
 
+/// Will Otterbein
+/// March 14, 2025
 namespace COMP3951_Lab6
 {
     /// <summary>
@@ -65,6 +67,11 @@ namespace COMP3951_Lab6
                 savedStatus.Text = savedStatusStrings[SavedStatus.UNSAVED];
         }
 
+        /// <summary>
+        /// Event handler for the on text saved event raised by the custom markdown editor control.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void willBestNoteSampleControl1_OnTextSaved(object sender, EventArgs e)
         {
             // Update the saved status of the control to be saved
@@ -72,6 +79,20 @@ namespace COMP3951_Lab6
             savedStatus.Text = savedStatusStrings[SavedStatus.SAVED];
             if (savedStatus.Text != savedStatusStrings[SavedStatus.SAVED])
                 savedStatus.Text = savedStatusStrings[SavedStatus.SAVED];
+        }
+    
+        /// <summary>
+        /// Event handler for the on font changed event raised by the custom markdown editor control.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void willBestNoteSampleControl1_OnFontChanghed(object sender, FontSwitchedEventArgs e)
+        {
+            // Show the font in the font preview
+            // Modify the size to fit in the preview box
+            // Some additional processing
+            Font newFont = new Font(e.NewFont?.Name, 9, FontStyle.Regular);
+            FontPreview.Font = newFont ?? e.NewFont;
         }
     }
 }
