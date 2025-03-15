@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel;
+using System.Configuration;
 using System.Runtime.Serialization;
 
 /// Will Otterbein
@@ -29,7 +30,25 @@ namespace COMP3951_Controls
         public Color ColorValue
         {
             get => _colorValue;
-            set { _colorValue = value; Invalidate(); }
+            set
+            {
+                _colorValue = value;
+                // Set trackbars
+                RedTrackBar.Value = value.R;
+                GreenTrackBar.Value = value.G;
+                BlueTrackBar.Value = value.B;
+                // Set the panel color
+                ColorPanel.BackColor = value;
+                // Raise color changed event
+                OnColorChanges(new ColorChangedEventArgs()
+                {
+                    NewColor = value,
+                    RedValue = value.R,
+                    GreenValue = value.G,
+                    BlueValue = value.B
+                });
+                Invalidate();
+            }
         }
 
         /// <summary>
@@ -65,11 +84,13 @@ namespace COMP3951_Controls
         {
             try
             {
+                // Determine color from trackbar values
                 Color mixedColor = Color.FromArgb(RedTrackBar.Value, GreenTrackBar.Value, BlueTrackBar.Value);
                 ColorPanel.BackColor = mixedColor;
                 ColorValue = mixedColor;
                 OnColorChanges(new ColorChangedEventArgs()
                 {
+                    NewColor = mixedColor,
                     RedValue = RedTrackBar.Value,
                     GreenValue = GreenTrackBar.Value,
                     BlueValue = BlueTrackBar.Value
@@ -87,6 +108,7 @@ namespace COMP3951_Controls
     /// </summary>
     public class ColorChangedEventArgs : EventArgs
     {
+        public Color NewColor { get; set; }
         public int RedValue { get; set; }
         public int GreenValue { get; set; }
         public int BlueValue { get; set; }

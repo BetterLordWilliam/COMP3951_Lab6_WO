@@ -55,7 +55,7 @@
             // 
             // colorSelectorControl1
             // 
-            colorSelectorControl1.ColorValue = Color.FromArgb(0, 0, 0);
+            colorSelectorControl1.ColorValue = Color.FromArgb(150, 0, 0);
             colorSelectorControl1.Location = new Point(286, 12);
             colorSelectorControl1.Margin = new Padding(5, 6, 5, 6);
             colorSelectorControl1.Name = "colorSelectorControl1";
@@ -102,6 +102,7 @@
             willBestNoteSampleControl1.WillTextChanged += willBestNoteSampleControl1_OnTextChanged;
             willBestNoteSampleControl1.WillTextSaved += willBestNoteSampleControl1_OnTextSaved;
             willBestNoteSampleControl1.WillFontChanged += willBestNoteSampleControl1_OnFontChanghed;
+            willBestNoteSampleControl1.WillBackgroundColorChanged += willBestNoteSampleControl1_OnBackgroundChanged;
             // 
             // savedStatus
             // 

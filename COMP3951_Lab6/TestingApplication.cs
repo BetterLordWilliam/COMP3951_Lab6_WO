@@ -2,6 +2,7 @@ using COMP3951_Controls;
 
 /// Will Otterbein
 /// March 14, 2025
+/// Testing application
 namespace COMP3951_Lab6
 {
     /// <summary>
@@ -93,6 +94,17 @@ namespace COMP3951_Lab6
             // Some additional processing
             Font newFont = new Font(e.NewFont?.Name, 9, FontStyle.Regular);
             FontPreview.Font = newFont ?? e.NewFont;
+        }
+
+        /// <summary>
+        /// Event handler for the on background changed event raised by the custom markdown editor control.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        private void willBestNoteSampleControl1_OnBackgroundChanged(object sender, BackgroundColorSwitchedEventArgs e)
+        {
+            // Change the color in the color selector control
+            colorSelectorControl1.ColorValue = e.NewColor;
         }
     }
 }

@@ -34,6 +34,7 @@
             button1 = new Button();
             button2 = new Button();
             markdownFont = new FontDialog();
+            markdownBackgroundColor = new ColorDialog();
             SuspendLayout();
             // 
             // MarkDownEditorBox
@@ -74,6 +75,7 @@
             button1.TabIndex = 3;
             button1.Text = "Switch Background Color";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += OnBackgroundColroChanged;
             // 
             // button2
             // 
@@ -109,5 +111,6 @@
         private Button button1;
         private Button button2;
         private FontDialog markdownFont;
+        private ColorDialog markdownBackgroundColor;
     }
 }

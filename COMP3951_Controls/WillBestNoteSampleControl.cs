@@ -9,6 +9,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+/// Will Otterbein
+/// March 14, 2025
+/// BestNote markdown editor custom control idea
 namespace COMP3951_Controls
 {
     /// <summary>
@@ -64,6 +67,8 @@ namespace COMP3951_Controls
         /// <param name="e"></param>
         public delegate void WillOnFontChanged(object sender, FontSwitchedEventArgs e);
 
+        public delegate void WillOnBackgroundChanged(object sender, BackgroundColorSwitchedEventArgs e);
+
         /// <summary>
         /// Text changed custom event.
         /// </summary>
@@ -84,6 +89,13 @@ namespace COMP3951_Controls
         [Category("Will Events")]
         [Description("Event handler to handle the font changed event")]
         public event WillOnFontChanged? WillFontChanged;
+
+        /// <summary>
+        /// Font changed custom event.
+        /// </summary>
+        [Category("Will Events")]
+        [Description("Event handler to handle the background changed event")]
+        public event WillOnBackgroundChanged? WillBackgroundColorChanged;
 
         /// <summary>
         /// Will text changed custom event.
@@ -111,6 +123,15 @@ namespace COMP3951_Controls
         public virtual void WillOnFontChangedHandler(FontSwitchedEventArgs e)
         {
             WillFontChanged?.Invoke(this, e);
+        }
+
+        /// <summary>
+        /// Will background color changed event.
+        /// </summary>
+        /// <param name="e"></param>
+        public virtual void WillOnBackgroundColorChangedHandler(BackgroundColorSwitchedEventArgs e)
+        {
+            WillBackgroundColorChanged?.Invoke(this, e);
         }
 
         /// <summary>
@@ -152,6 +173,25 @@ namespace COMP3951_Controls
                 });
             }
         }
+
+        /// <summary>
+        /// Event handler for the background color switched button being clicked.
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
+        public void OnBackgroundColroChanged(object sender, EventArgs e)
+        {
+            if (markdownBackgroundColor.ShowDialog() == DialogResult.OK)
+            {
+                // Set the new background color
+                MarkDownEditorBox.BackColor = markdownBackgroundColor.Color;
+                // Invoke the event
+                WillOnBackgroundColorChangedHandler(new BackgroundColorSwitchedEventArgs()
+                {
+                    NewColor = markdownBackgroundColor.Color
+                });
+            }
+        }
     }
 
     /// <summary>
@@ -167,6 +207,6 @@ namespace COMP3951_Controls
     /// </summary>
     public class BackgroundColorSwitchedEventArgs : EventArgs
     {
-
+        public Color NewColor { get; set; }
     }
 }
